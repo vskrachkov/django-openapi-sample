@@ -69,5 +69,4 @@ REST_FRAMEWORK = {
         "rest_framework.authentication.BasicAuthentication"
     ],
     "DEFAULT_RENDERER_CLASSES": ["rest_framework.renderers.JSONRenderer"],
-    "DEFAULT_FILTER_BACKENDS": ["django_filters.rest_framework.DjangoFilterBackend"],
 }
