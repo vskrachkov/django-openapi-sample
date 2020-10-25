@@ -21,7 +21,5 @@ def swagger_ui(request: HttpRequest) -> HttpResponse:
 
 
 openapi_schema_view = get_schema_view(
-    title="Users API",
-    url="https://www.example.org/api/",
-    renderer_classes=[JSONOpenAPIRenderer],
+    title="Users API", renderer_classes=[JSONOpenAPIRenderer]
 )

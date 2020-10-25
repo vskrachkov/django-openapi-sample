@@ -1,1 +1,1 @@
-default_app_config="docs.apps.DocsConfig"
+default_app_config = "docs.apps.DocsConfig"
